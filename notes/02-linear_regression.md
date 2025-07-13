@@ -21,9 +21,9 @@ Used **matplotlib** to visualize the distribution of each feature.
 ## Models Used
  - **Simple Linear Regression** (Only using 1 feature): using `LinearRegression()` from `sklearn`.
  - **Multiple Linear Regression** (All Features): using `LinearRegression()` from `sklearn`.
- - **Neural Network — Single Input (Temp)**: using normalization layer and one dense output layer without activation methode to get linear.
- - **Neural Network — Deep Network (Temp only)**
- - **Neural Network — All Features**
+ - **Neural Network** (Only using 1 feature): using normalization layer and one dense output layer without activation methode to get linear.
+ - **Neural Network** (Only using 1 feature): using multiple dense layer with relu activation and 32 nodes on each
+ - **Neural Network** (All features): same network but using all remaining features
 
 ## Models Evaluation
 Used :
